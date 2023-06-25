@@ -1,0 +1,104 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+h1{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.circle{
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: 0;
+}
+
+.card1{
+    max-width: 300px;
+    height: 350px;
+    margin: 200px auto;
+    background-color: hsl(216, 12%, 8%);
+    padding: 20px;
+    border-radius: 25px;
+}
+.card2{
+    max-width: 300px;
+    height: 350px;
+    margin: 200px auto;
+    background-color: hsl(216, 12%, 8%);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#card2{
+    display: none;
+}
+
+.submit{
+    width: 100%;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+.submit input{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.selected{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.over{
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+.rated{
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    width: 180px;
+    margin: 30px auto;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.rated p{
+    color: hsl(25, 97%, 53%);
+    margin: 0;
+}
